@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+  
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:brown;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.bucket-list {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bucket-list li {
+    margin-bottom: 20px;
+}
+
+.bucket-list img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bucket-list h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .bucket-list {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bucket-list img {
+        height: 100px;
+    }
+    .bucket-list h3 {
+        font-size: 16px;
+    }
+}
+</style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><marquee behavior="scrool" direction="left" >
+       MY PERSONAL BUCKET LIST</marquee></h1>
+    </header>
+    <main>
+        <section class="bucket-list">
+            <h2>Places I love to Visit</h2>
+            <ul>
+                <li>
+                    <img src=".\dwarakadish temple.jpg" alt="Gujarat"width="300" height="200">
+                    <h3>Dwarakadish temple,Gujarat</h3>
+                    <p>Explore the Krishna Mandir in Gujarat</p>
+                </li>
+                <li>
+                    <img src=".\araku-valley.jpg" alt="Vishakhapatnam" width="300" height="200">
+                    <h3>Araku Valley,Vishakhapatnam</h3>
+                    <p>Visit Araku Valley and Tribal Museum</p>
+                </li>
+                <li>
+                    <img src=".\adiyogi shiva.jpg" alt="Tamilnadu" width="300" height="200">
+                    <h3>Adiyogi shiva,tamilnadu</h3>
+                    <p>Experience boat Riding and Kerala food</p>
+                </li>
+            </ul>
+        </section>
+        <section class="bucket-list">
+            <h2> THINGS TO DO </h2>
+            <ul>
+                <li>
+                    <h3>DWARAKA</h3>
+                    <img src=".\dwarakadish under water.png" width="300" height="200">
+                    <p> Explore dwarakadish madir under water,historical landmarks of the temple</p>
+                </li>
+                <li>
+                    <h3>ARAKU</h3>
+                    <img src=".\Lambasingi-Mountains araku.jpg" width="300" height="200">
+                    <p> Having a good time to spend araku by seeing and capturing photos of the Clouds passing by hills in Araku</p>
+                </li>
+                <li>
+                    <h3>TAMIL NADU</h3>
+                    <img src=".\mahashivratri tamilnadu.avif"width="300" height="200">
+                    <p>Explore adiyogi in mahashivarathri.The atmosphere during Maha Shivaratri is incredibly vibrant, spiritual, and intense.the Isha Foundation, led by Sadhguru, organizes a massive event at the Adiyogi Shiva Statue.it’s an experience like no other.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Bucket List</p>
+    </footer>
+</body>
+</html>
+
